@@ -27,7 +27,7 @@ function setup() {
   invisibleGround.x = invisibleGround.width / 2;
   invisibleGround.visible = false; 
 
-  player = createSprite(100, 340, 20, 50);
+  player = createSprite(100, 280, 20, 50);
   player.addAnimation("monkey", player_running);
   player.scale = 0.1;
 }
